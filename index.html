@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Nossa Ótica</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#home">
+                <i class="fa-solid fa-glasses" id="nav_logo"> NOSSA OTICA</i>
+            </a>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#brands">Marcas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Depoimentos</a>
+                </li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send/?phone=5527995326856&text=Olá%2C+quero+ser+atendido+pela+Nossa+Ótica!" target="_blank" rel="noopener noreferrer" style="text-decoration: none">
+                <button class="btn-default">
+                    Entre em contato!
+                </button>
+            </a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_brands">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#brands">Marcas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Depoimentos</a>
+                </li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send/?phone=5527995326856&text=Olá%2C+quero+ser+atendido+pela+Nossa+Ótica!" target="_blank" rel="noopener noreferrer" style="text-decoration: none">
+                <button class="btn-default">
+                    Entre em contato!
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Nossa Ótica, feita para
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Desde 1999 entregando o melhor com carinho e dedicação.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#brands" class="btn-default">
+                        Consultar marcas
+                    </a>
+
+                    <a href="tel:+5527995326856" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (27) 99532-6856
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://api.whatsapp.com/send/?phone=5527995326856&text=Olá%2C+quero+ser+atendido+pela+Nossa+Ótica!" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/nossaoticaintra/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/intranossaotica/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="brands">
+            <h2 class="section-title">Marcas</h2>
+            <h3 class="section-subtitle">Conheça nossos principais parceiros!</h3>
+
+            <div id="partners">
+                <div class="partner">
+
+                    <img src="src/images/paulo-carraro-logo.png" class="partner-image" alt="">
+
+                    <h3 class="partner-title">
+                        Paulo Carraro
+                    </h3>
+
+                    <span class="partner-description">
+                        Consolidada no mercado sempre oferecendo as melhores armações.
+                    </span>
+
+                    <div class="partner-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(92+)</span>
+                    </div>
+
+                    <div class="partner-price">
+                        <h4>A partir de R$299,90</h4>
+                    </div>
+                </div>
+
+                <div class="partner">
+
+                    <img src="src/images/daccs-logo.png" class="partner-image" alt="">
+
+                    <h3 class="partner-title">
+                       Daccs
+                    </h3>
+
+                    <span class="partner-description">
+                        Oferece diversos modelos, de armações infantis a armações clip-on.
+                    </span>
+
+                    <div class="partner-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(53+)</span>
+                    </div>
+
+                    <div class="partner-price">
+                        <h4>A partir de R$299,90</h4>
+                    </div>
+                </div>
+
+                <div class="partner">
+
+                    <img src="src/images/ray-ban-logo.png" class="partner-image" alt="">
+
+                    <h3 class="partner-title">
+                        Ray-Ban
+                    </h3>
+
+                    <span class="partner-description">
+                        No mercado desde 1937, Ray-Ban despensa apresentações.
+                    </span>
+
+                    <div class="partner-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(278+)</span>
+                    </div>
+
+                    <div class="partner-price">
+                        <h4>A partir de 699,90</h4>
+                    </div>
+                </div>
+
+                <div class="partner">
+
+                    <img src="src/images/oakley-logo.png" class="partner-image" alt="">
+
+                    <h3 class="partner-title">
+                        Oakley
+                    </h3>
+
+                    <span class="partner-description">
+                        Oferecendo os modelos mais diferenciados!
+                    </span>
+
+                    <div class="partner-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(192+)</span>
+                    </div>
+
+                    <div class="partner-price">
+                        <h4>A partir de 499,90</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/ivilla-campos-feedback.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Ivilla Campos
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Super recomendo! O atendimento é super atencioso e feito com todo cuidado. 
+                                A variedade de produtos é enorme, com opções para todos os gostos e bolsos."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/vitor-mendonca-feedback.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Vitor Mendonça
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Como sou desenvolvedor busquei um óculos para minha vista que estava ficando
+                                cansada, fui super bem atendido e meu problema foi resolvido!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://www.instagram.com/nossaoticaintra/" target="_blank" rel="noopener noreferrer" style="text-decoration: none">
+                    <button class="btn-default">
+                        Confira mais depoimentos no Instagram!
+                    </button>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Nossa Ótica Intra
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://api.whatsapp.com/send/?phone=5527995326856&text=Olá%2C+quero+ser+atendido+pela+Nossa+Ótica!" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/nossaoticaintra/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/intranossaotica/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
